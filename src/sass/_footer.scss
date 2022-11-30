@@ -1,0 +1,20 @@
+.footer-contacts__list {
+  text-decoration: none;
+  list-style: none;
+}
+.footer-contacts__address {
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    color: aqua;
+  }
+}
+
+.footer-contacts__mail,
+.footer-contacts__tel {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  color: red;
+}
