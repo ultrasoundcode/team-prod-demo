@@ -1,4 +1,23 @@
 .site-header {
-  font-size: 50px;
-  color: rgb(120, 30, 30);
+  color: #ff6b0a;
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    &:hover,
+    &:focus {
+      color: rgb(42, 57, 188);
+    }
+  }
+}
+.site-header__desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  &:hover,
+  &:focus {
+    color: rgb(42, 57, 188);
+  }
 }
